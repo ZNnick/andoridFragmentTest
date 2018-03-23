@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/andoridFragmentTest.iml" filepath="$PROJECT_DIR$/andoridFragmentTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fragmentTest.iml" filepath="$PROJECT_DIR$/fragmentTest.iml" />
+      <module fileurl="file://C:\Users\ZN_nick\AndroidStudioProjects\andoridFragmentTest\app\app.iml" filepath="C:\Users\ZN_nick\AndroidStudioProjects\andoridFragmentTest\app\app.iml" />
+      <module fileurl="file://C:\Users\ZN_nick\AndroidStudioProjects\andoridFragmentTest\fragmentTest.iml" filepath="C:\Users\ZN_nick\AndroidStudioProjects\andoridFragmentTest\fragmentTest.iml" />
     </modules>
   </component>
 </project>
