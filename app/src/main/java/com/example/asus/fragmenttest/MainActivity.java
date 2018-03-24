@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button=(Button) findViewById(R.id.button);
 
         button.setOnClickListener(this);
-        replaceFragment(new RightFragment());
+//        replaceFragment(new RightFragment());
         //获取碎片的实例（仅用于实验）
 
     }
@@ -31,21 +31,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.button:
-                replaceFragment(new AnrotherFragment());
+//                replaceFragment(new AnrotherFragment());
                 break;
             default:
 
         }
     }
-    private void replaceFragment(Fragment fragment){
-        FragmentManager fragmentManager=getSupportFragmentManager();
-
-//        RightFragment rightFragment=(RightFragment)getFragmentManager().findFragmentById(); //获取碎片实例
-        FragmentTransaction transaction=fragmentManager.beginTransaction();
-        transaction.replace(R.id.right_layout,fragment);
-        transaction.addToBackStack(null);//将事物添加到返回栈
-        transaction.commit();
-
-
-    }
+//    private void replaceFragment(Fragment fragment){
+//        FragmentManager fragmentManager=getSupportFragmentManager();
+//
+////        RightFragment rightFragment=(RightFragment)getFragmentManager().findFragmentById(); //获取碎片实例
+//        FragmentTransaction transaction=fragmentManager.beginTransaction();
+//        transaction.replace(R.id.right_layout,fragment);
+//        transaction.addToBackStack(null);//将事物添加到返回栈
+//        transaction.commit();
+//
+//
+//    }
 }
