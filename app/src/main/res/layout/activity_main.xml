@@ -5,20 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asus.fragmenttest.MainActivity">
-<fragment
-    android:layout_width="0dp"
-    android:name="com.example.asus.fragmenttest.frament.LeftFrament"
-    android:layout_height="match_parent"
-    android:id="@+id/left_fragment"
-    android:layout_weight="1"/>
+
 
 
     <FrameLayout
-        android:layout_width="0dp"
-
+        android:layout_width="match_parent"
+        android:name="com.example.asus.fragmenttest.frament.LeftFrament"
         android:layout_height="match_parent"
-        android:id="@+id/right_layout"
-        android:layout_weight="1">
+        android:id="@+id/left_fragment"
+        >
 
 
     </FrameLayout>
